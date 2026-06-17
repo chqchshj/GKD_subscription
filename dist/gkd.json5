@@ -13319,6 +13319,21 @@
             },
           ],
         },
+        {
+          key: 4,
+          name: "全屏广告-穿山甲广告",
+          desc: "关闭穿山甲全屏广告",
+          rules: [
+            {
+              key: 0,
+              name: "关闭穿山甲广告",
+              fastQuery: true,
+              activityIds: "cj.mobile.fw.activity.PtgInteractionPortraitActivity",
+              matches: "[vid=\"closeAdvertLayout\"]",
+              snapshotUrls: "https://i.gkd.li/i/1781681634043",
+            },
+          ],
+        },
       ],
     },
     {
