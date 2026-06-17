@@ -8539,6 +8539,21 @@
             },
           ],
         },
+        {
+          key: 3,
+          name: "全屏广告-免单券弹窗",
+          desc: "关闭免单券营销弹窗",
+          fastQuery: true,
+          activityIds: "com.huaxiaozhu.sdk.app.MainActivity",
+          rules: [
+            {
+              key: 0,
+              name: "点击白色叉号关闭按钮",
+              matches: "@ImageView[childCount=0][clickable=true][visibleToUser=true][width<100 && height<100] < FrameLayout < FrameLayout < WebView",
+              snapshotUrls: "https://i.gkd.li/i/1781686494146",
+            },
+          ],
+        },
       ],
     },
     {
@@ -9202,6 +9217,7 @@
               ],
             },
           ],
+          enable: false,
         },
         {
           key: 2,
@@ -10318,6 +10334,7 @@
               ],
             },
           ],
+          enable: false,
         },
         {
           key: 2,
