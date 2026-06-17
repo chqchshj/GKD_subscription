@@ -12206,6 +12206,21 @@
             },
           ],
         },
+        {
+          key: 5,
+          name: "局部广告-首页推广横幅",
+          desc: "关闭618超级会员推广横幅",
+          fastQuery: true,
+          activityIds: ".application.Main",
+          rules: [
+            {
+              key: 0,
+              name: "点击关闭按钮",
+              matches: "[vid=\"close\"][visibleToUser=true] < FrameLayout[vid=\"content_view\"] < LinearLayout[vid=\"content\"] < FrameLayout[vid=\"expandable_advertise\"]",
+              snapshotUrls: "https://i.gkd.li/i/1781682910074",
+            },
+          ],
+        },
       ],
     },
     {
